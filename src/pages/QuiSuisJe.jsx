@@ -13,7 +13,7 @@ export default function QuiSuisJe() {
     }}>
       {/* Photo en haut, bien centrée */}
       <img
-        src="./src/assets/portrait.jpg"
+        src="/src/assets/portrait.jpg"
         alt="Portrait de l'artiste"
         style={{
           width: 170,
