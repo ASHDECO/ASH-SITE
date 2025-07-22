@@ -1,4 +1,5 @@
 import React from "react";
+import portrait from '../assets/portrait.jpg';
 
 export default function QuiSuisJe() {
   return (
@@ -13,7 +14,7 @@ export default function QuiSuisJe() {
     }}>
       {/* Photo en haut, bien centrée */}
       <img
-        import portrait from '../assets/portrait.jpg';
+        src={portrait}
         alt="Portrait de l'artiste"
         style={{
           width: 170,
@@ -48,6 +49,12 @@ export default function QuiSuisJe() {
           wordBreak: "break-word",
         }}
       >
+        {/* ...ton texte ici... */}
+      </div>
+    </div>
+  );
+}
+
 
         {/* 1 paragraphe = 1 <p> ... </p>  */}
         <p style={{ marginBottom: 27 }}>
