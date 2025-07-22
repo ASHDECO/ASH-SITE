@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Accueil() {
   return (
     <div style={{
@@ -9,7 +11,7 @@ export default function Accueil() {
     }}>
       <h1>🎨 Bienvenue dans mon atelier 🖌️​</h1>
       <p>Découvrez mes œuvres originales et uniques.</p>
-      <a href="/galerie" style={{
+      <Link to="/galerie" style={{
         background: "#3341c2",
         color: "#fff",
         borderRadius: 10,
@@ -18,9 +20,10 @@ export default function Accueil() {
         fontWeight: 600,
         marginTop: 30,
         boxShadow: "0 3px 16px rgba(0,0,0,0.08)"
-      }}>Voir la galerie</a>
+      }}>
+        Voir la galerie
+      </Link>
     </div>
   );
 }
-
 
