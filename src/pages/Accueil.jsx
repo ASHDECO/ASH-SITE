@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import fondAccueil from '../assets/fondacceuil.jpg'; // Assure-toi que le nom du fichier est EXACT
+import fondAccueil from '../assets/fondaccueil.jpg'; // Assure-toi que le nom du fichier est EXACT
 
 export default function Accueil() {
   return (
