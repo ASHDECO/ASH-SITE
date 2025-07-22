@@ -49,12 +49,6 @@ export default function QuiSuisJe() {
           wordBreak: "break-word",
         }}
       >
-        {/* ...ton texte ici... */}
-      </div>
-    </div>
-  );
-}
-
 
         {/* 1 paragraphe = 1 <p> ... </p>  */}
         <p style={{ marginBottom: 27 }}>
